@@ -1,0 +1,12 @@
+body {
+    background-color: #055052;
+}
+header{
+    background-color: #fdfdfd;
+}
+h3 {
+    color: #F3F2C9;
+}
+.container {
+    flex-wrap: wrap;
+}
