@@ -1,12 +1,15 @@
-body {
-    background-color: #055052;
+
+nav h2 {
+    text-transform: uppercase;
+    color: #fcfcfc;
 }
-header{
-    background-color: #fdfdfd;
+.navbar {
+    text-transform: uppercase;
+    background-color: #642e01;
 }
-h3 {
-    color: #F3F2C9;
+.nav-link {
+    color: #bfbdbe;
 }
-.container {
-    flex-wrap: wrap;
+.nav-link:focus, .nav-link:hover {
+    color: #fff7fb;
 }
