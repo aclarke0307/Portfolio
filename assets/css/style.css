@@ -23,7 +23,14 @@ nav h2 {
     top: 40%;
     z-index: 1;
 }
-
+.caption p {
+  color: #fff7fb;
+  text-align: justify;
+  margin-left: 50%;
+  margin-right: 10%;
+  display: flex;
+  font-size: 1.2em;
+}
 /*--- iOS Landing Page Fix --*/
 .landing {
   position: relative;
@@ -32,7 +39,13 @@ nav h2 {
   display: table;
   z-index: -1;
 }
-
+.information img {
+  max-width: 30%;
+  border-radius: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
+  
+}
 section h3 {
   color: #dfcba1;
   font-size: 2.8em;
@@ -59,6 +72,9 @@ section h3 {
 }
 a:link{
    text-decoration: none;
+}
+a:hover {
+  color: #fff7fb;
 }
 a{
   color: #dfcba1;
