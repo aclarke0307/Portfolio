@@ -1,23 +1,21 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #36767a;
 }
 nav h2 {
     text-transform: uppercase;
-    color: #ffffff;
+    color: #dfcba1;
 }
 .navbar {
     text-transform: uppercase;
-    background-color: #6A3423C1;
 }
 .nav-link {
-    color: #bfbdbe;
+  color: #dfcba1;
 }
 .nav-link:focus, .nav-link:hover {
     color: #fff7fb;
 }
-.home-inner{
-    background-image: url('../images/landing.png');
-}
+
 .caption{
     width: 100%;
     max-width: 100%;
@@ -32,48 +30,45 @@ nav h2 {
   width: 100%;
   height: 100vh;
   display: table;
-  background: #E9ECEF;
   z-index: -1;
 }
-.home-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.home-inner {
-  position: fixed;
-  display: table;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
-}
 
-section {
-    background-color: #6A3423C1;
-  
-
+section h3 {
+  color: #dfcba1;
+  font-size: 2.8em;
+  font-family: sans-serif;
+  margin-left: 550px;
+  margin-bottom: 35px;
 }
 .card {
   width: 18rem;
   margin-right: 15px;
   margin-left: 17px;
+  margin-bottom: 50px;
 }
 .btn {
   width: 99px;
   margin: auto;
 }
-.footer {
-  background-color: #6A3423C1;
+.flex-container {
+  color: #dfcba1;
+  display: flex;
   width: 100%;
   max-width: 100%;
   position: absolute;
+}
+a:link{
+   text-decoration: none;
+}
+a{
+  color: #dfcba1;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline;
+  font-size: 1.7em;
+  margin-right: 40px;
+  margin-left: 40px;
 }
