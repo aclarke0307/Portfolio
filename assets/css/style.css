@@ -59,8 +59,17 @@ nav h2 {
 
 section {
     background-color: #6A3423C1;
-    
+  
 
+}
+.card {
+  width: 18rem;
+  margin-right: 15px;
+  margin-left: 17px;
+}
+.btn {
+  width: 99px;
+  margin: auto;
 }
 .footer {
   background-color: #6A3423C1;
